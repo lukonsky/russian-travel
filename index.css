@@ -98,7 +98,7 @@
 }
 
 .intro {
-    margin: 92px auto 0 auto;
+    margin: 92px auto;
     max-width: 985px;
 }
 
@@ -139,4 +139,9 @@
 .intro__list-item_bold {
     font-weight: bold;
     
+}
+
+.photo-grid {
+    max-width: 1184px;
+    margin: 0 auto;
 }
