@@ -1,0 +1,25 @@
+@import url(./normalize.css);
+
+:root {
+    --background-color: #2A2C2F;;
+    --text-color: #FFFFFF;
+  }
+
+.page {
+    background-color: var(--background-color);
+}
+
+.header {
+    margin: 28px 48px 0;
+    display: flex;
+}
+
+.header__lang-link {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.header__logo {
+    
+}
