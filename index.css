@@ -1,4 +1,4 @@
-@import url(./normalize.css);
+@import url(/russian-travel/vendor/normalize.css);
 
 :root {
     --background-color: #2A2C2F;;
@@ -7,19 +7,46 @@
 
 .page {
     background-color: var(--background-color);
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 .header {
-    margin: 28px 48px 0;
+    margin: 0 0 56px 0;
     display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    
+}
+
+.header__lang-links {
+    display: flex;
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .header__lang-link {
-    display: flex;
-    justify-content: flex-end;
+    font-size: 24px;
     text-decoration: none;
+    color: var(--text-color);
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header__lang-link:first-child {
+    margin-right: 18px;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
 }
 
 .header__logo {
     
+    margin: 28px 48px 0;
+    width: 176px;
+    height: 52px;
 }
